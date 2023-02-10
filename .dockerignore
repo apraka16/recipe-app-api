@@ -1,0 +1,15 @@
+# Git
+.git
+.gitignore
+
+# Docker - this is a hidden file, should be excluded
+.docker
+
+# Python - Python creates caches in projects, ignore them from docker; venv is already there on docker - need not be added
+app/__pycache__/
+app/*/__pycache__/
+app/*/*/__pycache__/
+app/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
