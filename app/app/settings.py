@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     # Bespoke apps
     'core',
     'user',
+    'recipe',
     # Libraries
     'rest_framework',
     'rest_framework.authtoken',
