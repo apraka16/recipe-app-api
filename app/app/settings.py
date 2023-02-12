@@ -34,8 +34,10 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # Bespoke apps
     'core',
+    'user',
     # Libraries
     'rest_framework',
+    'rest_framework.authtoken',
     'drf_spectacular',
     # Django default apps
     'django.contrib.admin',
